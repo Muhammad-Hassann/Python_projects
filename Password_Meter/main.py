@@ -12,7 +12,8 @@ def check_password_strength(password):
     # Length Check
     if password in common_passwords:
         suggestions.append("❌ Avoid using common passwords.")
-        return
+        result = "Weak"
+        return score, suggestions, result
     if len(password) >= 8:
         score += 1
     else:
@@ -61,7 +62,7 @@ if st.button("Check Password"):
         elif score == 3:
             st.warning("⚠️ Moderate Password - Consider adding more security features.")
         else:
-            st.error("❌ Weak Password - Improve it using the suggestions above.")
+            st.error("❌ Weak Password - Improve it using the suggestions below.")
 
         for suggestion in suggestions:
                 st.write(suggestion)    
