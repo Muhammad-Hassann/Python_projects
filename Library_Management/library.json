@@ -1,0 +1,44 @@
+[
+    {
+        "title": "My book",
+        "author": "Me",
+        "year": "2023",
+        "genre": "I don't know",
+        "is_read": false
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": "1937",
+        "genre": "Fantasy",
+        "is_read": true
+    },
+    {
+        "title": "The Hobbit2",
+        "author": "J.R.R. Tolkien",
+        "year": "1937",
+        "genre": "Fantasy",
+        "is_read": true
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": "1949",
+        "genre": "Dystopian",
+        "is_read": false
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "year": "1988",
+        "genre": "Philosophy",
+        "is_read": true
+    },
+    {
+        "title": "hh",
+        "author": "hhh",
+        "year": "hhh",
+        "genre": "hhh",
+        "is_read": false
+    }
+]
